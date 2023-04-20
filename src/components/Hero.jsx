@@ -16,7 +16,7 @@ const Hero = () => {
           bg-[#046380]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-
+      
         <div>
           <hi className={`${styles.heroHeadText}
           text-white`} >Hi, I'm <span
@@ -24,8 +24,11 @@ const Hero = () => {
            <p className={`${styles.heroSubText}mt-2
            text-white-100`}> I analysis data, visualize <br
            className="sm:block hidden"/> 
-           it and turn them into meaningful information 
-           with appropriate dashboards!
+           it and turn them into meaningful <br
+           className="sm:block hidden"/> information 
+           with appropriate <br
+           className="sm:block hidden"/>
+           dashboards!
            </p>
         </div>
       </div>
