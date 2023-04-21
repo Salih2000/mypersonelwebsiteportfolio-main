@@ -31,16 +31,16 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_cdtkawo', 
-      'template_sdd2tro',
+      '', 
+      '',
       {
         from_name: form.name,
         to_name: 'Salih Abdullah',
         from_email: form.email,
-        to_email: 'salihabdullahkilic@gmail.com',
+        to_email: '',
         message: form.message,
       },
-      'EeXPb9T3cTDdVWa25'
+      ''
       )
       .then(() => {
         setLoading(false);
