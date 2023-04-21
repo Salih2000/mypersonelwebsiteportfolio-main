@@ -27,20 +27,20 @@ const Hero = () => {
           it and turn them into meaningful <br className="sm:block hidden" /> information with appropriate 
           dashboards!
           </p>
-          <button className="bg-[#047e80] text-white py-2 px-4 rounded mt-4" /*onClick={handleDownloadCV}*/ >Download My CV!</button> {/* add the download button */}
+          <button className="bg-[#047e80] text-white py-2 px-4 rounded mt-4 hover:bg-blue-500 hover:text-white hover:shadow-lg" onClick={handleDownloadCV} >Download My CV!</button> {/* add the download button */}
         </div>
       </div>
       <div className="absolute xs:bottom-60 bottom-32 w-full flex flex-col items-center">
         <h2 className="text-white-100 mb-4">You can follow me on these platforms also!</h2>
         <div className="flex justify-center items-center gap-4">
-          <a href="https://www.linkedin.com/in/salih-abdullah-kilic/">
-            <img src={linkedinLogo} alt="LinkedIn" className="w-25 h-24" />
+          <a href="https://www.linkedin.com/in/salih-abdullah-kilic/" className="hover:opacity-75">
+            <motion.img whileHover={{ scale: 1.1 }} src={linkedinLogo} alt="LinkedIn" className="w-25 h-24" />
           </a>
-          <a href="https://github.com/Salih2000?tab=repositories/">
-            <img src={githubLogo} alt="GitHub" className="w-25 h-24" />
+          <a href="https://github.com/Salih2000?tab=repositories/" className="hover:opacity-75">
+            <motion.img whileHover={{ scale: 1.1 }} src={githubLogo} alt="GitHub" className="w-25 h-24" />
           </a>
-          <a href="https://medium.com/">
-            <img src={mediumLogo} alt="Medium" className="w-25 h-24" />
+          <a href="https://medium.com/" className="hover:opacity-75">
+            <motion.img whileHover={{ scale: 1.1 }} src={mediumLogo} alt="Medium" className="w-25 h-24" />
           </a>
         </div>
       </div>
