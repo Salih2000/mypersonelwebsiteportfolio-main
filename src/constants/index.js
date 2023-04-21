@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   logo,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -35,10 +36,7 @@ export const navLinks = [
     id: "work",
     title: "My Projects",
   },
-  {
-    id: "CV",
-    title: "Download My CV!",
-  },
+  
   {
     id: "contact",
     title: "Contact",
@@ -128,11 +126,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "",
     points: [
-      " Developed With React Typescirpt and TailorCSS",
+      " Developed With React Typescript and TailorCSS",
     ],
   },
   {
-    title: "",
+    title: "Coming soon!",
     company_name: "",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -142,7 +140,7 @@ const experiences = [
     ],
   },
   {
-    title: "",
+    title: "Coming soon!",
     company_name: "",
     icon: shopify,
     iconBg: "#383E56",
@@ -152,7 +150,7 @@ const experiences = [
     ],
   },
   {
-    title: "",
+    title: "Coming soon!",
     company_name: "",
     icon: meta,
     iconBg: "#E6DEDD",
@@ -218,15 +216,15 @@ const projects = [
       "",
     tags: [
       {
-        name: "react",
+        name: "",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
@@ -239,15 +237,15 @@ const projects = [
       "",
     tags: [
       {
-        name: "nextjs",
+        name: "n",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
